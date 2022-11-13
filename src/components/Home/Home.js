@@ -48,7 +48,10 @@ function Home() {
             </span>
           </h1>
           <h2>
-            <span>I am a Full Stack Developer</span>
+            <span>
+              I am a{" "}
+              <span style={{ color: "#F3AA14" }}>Full Stack Developer</span>
+            </span>
           </h2>
 
           <div style={{ padding: 50, textAlign: "center" }}>
@@ -58,7 +61,9 @@ function Home() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>
+              FIND <span style={{ color: "#DC8400" }}>ME</span> ON
+            </h1>
             <p>
               Feel free to <span className="purple">contact </span>with me
             </p>
