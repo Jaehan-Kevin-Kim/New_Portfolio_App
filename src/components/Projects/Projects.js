@@ -13,6 +13,7 @@ import inthemiddle from "../../Assets/Projects/inthemiddle.png";
 import KSSC from "../../Assets/Projects/KSSC.png";
 import LinkedIn from "../../Assets/Projects/LinkedIn.png";
 import shareThoughts from "../../Assets/Projects/shareThoughts.jpg";
+import shareTalks from "../../Assets/Projects/shareTalks.png";
 import skinet from "../../Assets/Projects/skinet.png";
 
 function Projects() {
@@ -27,6 +28,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shareTalks}
+              isBlog={false}
+              title="Share Talks"
+              tech={["Dart", "Flutter", "Firebase", "Getx"]}
+              description="Realtime mobile messanger app. Developed by Dart, Flutter, and Firebase"
+              ghLink="https://github.com/Jaehan-Kevin-Kim/ShareTalks"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={shareThoughts}
@@ -104,7 +115,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={LinkedIn}
               isBlog={false}
@@ -121,7 +132,7 @@ function Projects() {
               ghLink="https://github.com/Jaehan-Kevin-Kim/LinkedIn-Clone"
               demoLink="https://linkedin-clone-d9b78.firebaseapp.com/"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard

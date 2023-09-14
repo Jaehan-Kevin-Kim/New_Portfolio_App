@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Kevin.</span> I am a
             skillful and passionate{" "}
             <span className="purple"> Full-stack developer</span> specializing
-            in web development applications.
+            in web, and mobile development applications.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

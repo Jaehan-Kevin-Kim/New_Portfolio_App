@@ -11,7 +11,14 @@ import {
   DiNodejs,
   DiReact,
 } from "react-icons/di";
-import { SiCsharp, SiMysql, SiNextdotjs } from "react-icons/si";
+import {
+  SiCsharp,
+  SiMysql,
+  SiNextdotjs,
+  SiFlutter,
+  SiDart,
+  SiFirebase,
+} from "react-icons/si";
 
 function Techstack() {
   return (
@@ -45,6 +52,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiCsharp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlutter />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDart />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase />
       </Col>
     </Row>
   );
