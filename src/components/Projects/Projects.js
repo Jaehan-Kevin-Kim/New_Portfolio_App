@@ -34,8 +34,9 @@ function Projects() {
               isBlog={false}
               title="Share Talks"
               tech={["Dart", "Flutter", "Firebase", "Getx"]}
-              description="Realtime mobile messanger app. Developed by Dart, Flutter, and Firebase"
+              description="Realtime mobile messanger app. Developed by Dart, Flutter, and Firebase. Published on Google Play Store. Feel free to chat with your friend by downloading this app from Google Play Store."
               ghLink="https://github.com/Jaehan-Kevin-Kim/ShareTalks"
+              downloadLink="https://play.google.com/store/apps/details?id=com.jhkevin21.share_talks"
             />
           </Col>
           <Col md={4} className="project-card">

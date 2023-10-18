@@ -5,6 +5,7 @@ import Badge from "react-bootstrap/Badge";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { useEffect } from "react";
+import { BiLogoPlayStore } from "react-icons/bi";
 
 function ProjectCards(props) {
   const [tech, setTech] = useState([]);
@@ -55,6 +56,17 @@ function ProjectCards(props) {
             style={{ marginLeft: "10px" }}>
             <CgWebsite /> &nbsp;
             {"WebPage"}
+          </Button>
+        )}
+
+        {!props.isBlog && props.downloadLink && (
+          <Button
+            variant="primary"
+            href={props.downloadLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}>
+            <BiLogoPlayStore /> &nbsp;
+            {"PlayStore"}
           </Button>
         )}
       </Card.Body>
