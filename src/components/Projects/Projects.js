@@ -15,6 +15,7 @@ import LinkedIn from "../../Assets/Projects/LinkedIn.png";
 import shareThoughts from "../../Assets/Projects/shareThoughts.jpg";
 import shareTalks from "../../Assets/Projects/shareTalks.png";
 import skinet from "../../Assets/Projects/skinet.png";
+import lol from "../../Assets/Projects/lol.png";
 
 function Projects() {
   return (
@@ -30,11 +31,22 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={lol}
+              isBlog={false}
+              title="League of Legends Strategy"
+              tech={["React.js", "Emotion", "Material UI", "Zustand"]}
+              description="Display the skills and cooldowns of both your team and the enemy team in the game League of Legends (LoL), helping you prepare for combat."
+              ghLink="https://github.com/Jaehan-Kevin-Kim/LeagueOfLegend_Strategy"
+              demoLink="https://leagueoflegend-strategy.netlify.app/strateg/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={shareTalks}
               isBlog={false}
               title="Share Talks"
               tech={["Dart", "Flutter", "Firebase", "Getx"]}
-              description="Realtime mobile messanger app. Developed by Dart, Flutter, and Firebase. Published on Google Play Store. Feel free to chat with your friend by downloading this app from Google Play Store."
+              description="Realtime mobile messanger app. Developed by Dart, Flutter, and Firebase. Published on Google Play Store."
               ghLink="https://github.com/Jaehan-Kevin-Kim/ShareTalks"
               downloadLink="https://play.google.com/store/apps/details?id=com.jhkevin21.share_talks"
             />
@@ -116,7 +128,7 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={LinkedIn}
               isBlog={false}
@@ -133,7 +145,7 @@ function Projects() {
               ghLink="https://github.com/Jaehan-Kevin-Kim/LinkedIn-Clone"
               demoLink="https://linkedin-clone-d9b78.firebaseapp.com/"
             />
-          </Col> */}
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard

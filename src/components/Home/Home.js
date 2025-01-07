@@ -42,7 +42,7 @@ function Home() {
               'S WEBPAGE
             </h1> */}
           <h1 style={{ paddingBottom: 15 }} className="heading">
-            Hello, I'm <strong className="main-name">Kevin</strong>
+            Hello, I'm <strong className="main-name">Jaehan</strong>
             <span className="wave" role="img" aria-labelledby="wave">
               👋🏻
             </span>
@@ -70,7 +70,7 @@ function Home() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="mailto:kevin.kim9685@gmail.com"
+                  href="mailto:jaehan.jk@gmail.com"
                   rel="noreferrer"
                   className="icon-colour home-social-icons">
                   <AiOutlineMail />
